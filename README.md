@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9b0fe94b-036d-4513-85ae-35afedc19bc4)# Linux-IPC-Shared-memory
+# Linux-IPC-Shared-memory
 Ex06-Linux IPC-Shared-memory
 
 # AIM:
@@ -21,8 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## Write a C program that illustrates two processes communicating using shared memory.
-
-'''
+```
 //shmry1.c
 
 #include<unistd.h> 
@@ -130,6 +129,9 @@ fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 }
 
 ```
+
+## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/baabefde-6edf-4ace-bfd4-17db90e9493c)
 
 ![image](https://github.com/user-attachments/assets/c54b1888-e7ee-4c06-9763-06ae3e0459d8)
@@ -137,9 +139,6 @@ fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 ![image](https://github.com/user-attachments/assets/78920cd9-9047-41d8-8785-79e28a0c784f)
 
 ![image](https://github.com/user-attachments/assets/a52c843f-306c-4625-8de9-95a7d6f854f4)
-
-
-## OUTPUT
 
 
 # RESULT:
